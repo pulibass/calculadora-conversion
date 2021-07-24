@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: #1f4037;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.titulo {
+    display: block;
+}
+
+.contenedor-monedas {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-moneda-inter {
+    border: 1px solid black;
+    width: 25%;
+    margin-left: 5px;
+    box-shadow: 10px 5px 15px 5px;
+
+}
+
+.moneda-inter input {
+    text-align: center;
+    width: 100px;
+    border-radius: 15px;
+
+}
+
+.contenedor-moneda-arg {
+    border: 1px solid black;
+    width: 25%;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 10px 5px 15px 5px;
+
+
+
+
+}
+
+.moneda-arg input {
+    text-align: center;
+    width: 100px;
+    border-radius: 15px;
+
+
+}
+
+
+
+.contenedor-tasa {
+    border: 1px solid black;
+    width: 15%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 5px 15px 5px;
+
+}
+
+.contenedor-tasa h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tasa {
+    border: 1px solid rgb(114, 113, 113);
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="cargarTasa()">
+
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>CONVERSIONES</h1>
+        </div><br>
+        <div class="contenedor-monedas">
+
+            <div class="contenedor-moneda-inter">
+                <h2>DOLAR</h2>
+                <div class="moneda-inter">
+                    <input onkeyup="cambioDolarPesos()" id="dolar" type="text">
+                </div>
+
+                <h2>EURO</h2>
+                <div class="moneda-inter">
+                    <input onkeyup="cambioEuroPesos()" id="euro" type="text">
+
+                </div>
+
+                <h2>REAL</h2>
+                <div class="moneda-inter">
+                    <input onkeyup="cambioRealPesos()" id="real" type="text">
+
+                </div>
+            </div>
+            <div class="contenedor-tasa">
+                <div>
+                    <h3>TASA</h3>
+                    <div id="tasa-peso-dolar" class="tasa"></div>
+                </div>
+                <div>
+                    <h3>TASA</h3>
+                    <div id="tasa-peso-euro" class="tasa"></div>
+                </div>
+                <div>
+                    <h3>TASA</h3>
+                    <div id="tasa-peso-real" class="tasa"></div>
+                </div>
+                
+               
+            </div>
+            <div class="contenedor-moneda-arg">
+                <h2>PESOS ARG</h2>
+                <div class="moneda-arg">
+                    <input onkeyup="cambioPesosDolar()"id="peso-dolar" type="text">
+
+                </div>
+                <h2>PESOS ARG</h2>
+                <div class="moneda-arg">
+                    <input onkeyup="cambioPesosEuro()" id="peso-euro" type="text">
+
+                </div>
+                <h2>PESOS ARG</h2>
+                <div class="moneda-arg">
+                    <input onkeyup="cambioPesosReal()" id="peso-real" type="text">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
